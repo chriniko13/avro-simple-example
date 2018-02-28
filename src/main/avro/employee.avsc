@@ -1,0 +1,12 @@
+{"namespace": "com.chriniko.avro.domain",
+ "type": "record",
+ "name": "Employee",
+ "fields": [
+     {"name": "id", "type": "long"},
+     {"name": "username",  "type": "string"},
+     {"name": "email_address",  "type":"string"},
+     {"name": "first_name",  "type":"string"},
+     {"name": "last_name",  "type":"string"},
+     {"name": "middle_name",  "type": ["string", "null"]}
+ ]
+}
